@@ -10,9 +10,9 @@ def truncate_string(s, max_length):
 
 
 # Paths to the old database, new database, and JSONL file
-old_db_path = r'C:\Users\lukep\OneDrive\workandplay\GitHub\Staging\webGems\first_20_thousand.db'
-new_db_path = r'C:\Users\lukep\OneDrive\workandplay\GitHub\Staging\webGems\parsed_data.db'
-jsonl_file = r'C:\Users\lukep\OneDrive\workandplay\GitHub\Testing\cavellStuff\jsonl\combined_response_data.jsonl'
+old_db_path = r'first_20_thousand.db'
+new_db_path = r'parsed_data.db'
+jsonl_file = r'combined_response_data.jsonl'
 
 # Create new database if it doesn't exist
 if not os.path.exists(new_db_path):
