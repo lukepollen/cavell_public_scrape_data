@@ -11,20 +11,10 @@ batch_up = client.batches.list()
 files = client.files.list()
 
 batches = [
-"batch_670685ff05548190ad79775698143010",
-"batch_67068a3526bc8190ad00f6d1c1ae5af1",
-"batch_67068ced97b88190941d9890df0fcf05",
-"batch_67068faabc088190a7710c64868d7b1f",
-"batch_670692a260bc8190aa84ce5662247a1b",
-"batch_670694dddb9881908402d2310dc258f2",
-"batch_67069652b1fc8190b7d69547f0d07494",
-"batch_6706974178e88190bfcda1dbf5a8d33c",
-"batch_6706982930048190921a3835f732560f",
-"batch_6706990e82688190bb97667b5a2ae796",
-"batch_67069a00d8e48190a1e311018ad815ac",
-"batch_67069b098900819084efbbee437683f5",
-"batch_67069bf0a23481909af3d88dde015fab",
-"batch_67069c7b31e481909abb02a3a8ceee70",
+"batch_somealphernumericstring",
+"batch_someotheralphernumericstring",
+"...",
+"batch_some_string",
 ]
 
 # Get the file associated with a completed batch request if request matches the format we state.
